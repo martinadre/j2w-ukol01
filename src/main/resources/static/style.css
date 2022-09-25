@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*
+Barvy:
+czechitas růžová: #e5007d
+czechitas modrá: #273582
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  color: #e5007d;
+}
+
+/* nebo:
+h1 {
+color: #e5007d;
+}
+h2 {
+color: #e5007d;
+}
+h3 {
+color: #e5007d;
+}
+*/
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: Raleway;
+}
+
+a {
+  color: #273582;
+}
+
+a:hover {
+  color: #e5007d;
+}
+
+/* o mně */
+
+.o-mne {
+  background-color: #e5007d;
+  text-align: center;
+  color: white;
+  /*background-image: -webkit-gradient(linear, left top, right    top, from(rgba(45, 46, 131, 0.95)), to(rgba(230, 0, 126,      0.95)));*/
+  /*background-image: linear-gradient(to right, purple, #e5007d);*/
+  background-image: linear-gradient(to right, rgba(230, 0, 126, 0.9), rgba(45, 46, 131, 0.9));
+}
+
+.o-mne h1 {
+  color: white;
+}
+
+.o-mne img {
+  border-radius: 50%;
+}
+
+.zajmy {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.paticka {
+  background-color: #273582;
+  text-align: center;
+  color: white;
+}
+
+.paticka a {
+  color: yellow;
+}
+
+.zahlavi {
+  background-color: white;
+}
+
+.logo {
+  color: #e5007d;
+  font-family: Pacifico;
+  font-size: 24px;
+}
+
+.zajmy ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.zajmy li {
+  width: 33.333%;
+  padding: 16px;
+  margin: 0 16px;
+  /*margin-right: 16px;
+  margin-left: 16px;*/
+  border: 4px dotted #d3d3d3;
+}
+
+.flex {
+  display: flex;
+  list-style: none;
+  padding: 16px;
+}
+
+.obsah {
+  max-width: 900px;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
